@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cliente</title>
+</head>
+
+<body>
+    <h1>Pastelería "Pastelito"</h1>
+    <img src="assets/img/png/pastelito-logo.png" alt="pastelito logo" width="250">
+    <hr>
+    <h2>Pasteles</h2>
+    <table align="left">
+        <tr>
+            <th> Sabor</th> 
+            <th> Precio</th> 
+            <th> Imagen</th> 
+
+        </tr>
+        <tr>
+            <td> Cheese cake</td>
+            <td> $300</td>
+            <td> <img src="assets/img/jpg/cheesecake.jpg" alt="" width="250"></td>
+        </tr>
+        <tr>
+            <td> Fresa</td>
+            <td> $250</td>
+            <td> <img src="assets/img/jpg/fresa.jpg" alt="" width="250"></td>
+        </tr>
+        <tr>
+            <td> Chocolate</td>
+            <td> $350</td>
+            <td> <img src="assets/img/jpg/chocolate.jpg" alt="" width="250"></td>
+        </tr>
+    </table>
+
+    <h2>Adornos</h2>
+    <table>
+        <tr>
+            <th> Adorno</th>
+            <th> Precio</th>
+            <th> Imagen</th>
+        </tr>
+        <tr>
+            <td> Velitas</td>
+            <td> $5</td>
+            <td> <img src="assets/img/jpg/velitas.jpg" alt="" width="250"></td>
+        </tr>
+        <tr>
+            <td> Chispas chocolate</td>
+            <td> $15</td>
+            <td> <img src="assets/img/jpg/chispas-chocolate.jpg" alt="" width="250"><br><br></td>
+        </tr>
+        <tr>
+            <td> Velita mágica</td>
+            <td> $10</td>
+            <td> <img src="assets/img/jpg/chispas.jpg" alt="" width="200"> </td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Ordena tu pedido</h2>
+    <table>
+        <tr>
+            <th> Cantidad </th>
+            <th> Sabor </th>
+            <th> Adorno </th>
+            <th> Otro Sabor </th>
+        </tr>
+        <tr>
+            <td>
+                <select name="cantidad" id="cantidad">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </td>
+            <td>
+                <select name="sabor" id="sabor">
+                    <option value="1">Cheese cake</option>
+                    <option value="2">Fresa</option>
+                    <option value="3">Chocolate</option>
+                </select>
+            </td>
+            <td>
+                <select name="adorno" id="adorno">
+                    <option value="1">Velitas </option>
+                    <option value="2">Chispas de chocolate</option>
+                    <option value="3">Velita mágica</option>
+                </select>
+            </td>
+            <td>
+                <input type="checkbox" id="1" name="queso" value="1">
+                <label for="queso"> Cheese cake</label><br>
+                <input type="checkbox" id="2" name="fresa" value="2">
+                <label for="fresa"> Fresa</label><br>
+                <input type="checkbox" id="3" name="choco" value="3">
+                <label for="choco"> Chocolate</label><br>
+            </td>
+        </tr>
+
+    </table>
+    <a href="formulario.html">
+    <input type="button" value="Ordenar">
+    </a>
+    <br><br>
+    <hr>
+    <footer>
+        <p>Direccción: 9 Sur 113, Colonia: Barrio de Papantla, San Sebastián El Mojado, Puebla</p>
+        <p>Teléfono 512 458 87 91</p>
+        <p>Horario: Lunes a Viernes: 9:00 am a 5:00 pm, Sábados y Domingos: 9:00 am a 1:00 pm</p>
+        <p><a href="mailto:hege@example.com">paste_lito@hotmail.com</a></p>
+    </footer>  
+<body>
+</html>
